@@ -63,8 +63,9 @@
                     &:nth-child(4) {
                         &::after {
                             top: 125px;
-                            left: 35px;
-                            background: url('/assets/graphicElements/18+_tablet.svg') no-repeat center;
+                            left: 55px;
+                            background: url('/assets/graphicElements/18+_tablet.webp') no-repeat center;
+                            background-size: 100%;
                         }
                     }
                 }
@@ -234,7 +235,7 @@
 
 @media (max-width: 768px) {
     .terms {
-        padding: 20px 20px 20px 40px;
+        padding: 20px 20px 20px 20px;
     }
 }
 
