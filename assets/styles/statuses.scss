@@ -1,0 +1,56 @@
+// Стилизация уникальных статусов
+@import 'colors.scss';
+
+.shy {
+    background: linear-gradient(180deg, #232323 0%, rgba(0, 0, 0, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.lab4u {
+    color: $MainLavender;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: -20px;
+        background: url('/assets/graphicElements/emoji_sparkle.webp') no-repeat center center;
+        background-size: 100%;
+        width: 16px;
+        height: 16px;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -20px;
+        background: url('/assets/graphicElements/emoji_sparkle.webp') no-repeat center center;
+        background-size: 100%;
+        width: 16px;
+        height: 16px;
+    }
+}
+.drunk {
+    background: linear-gradient(180deg, #9e420d 0%, #facd96 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    position: relative;
+    &::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: -22px;
+        width: 16px;
+        height: 16px;
+        background: url('/assets/routesCategoriesImages/whiskey.webp') no-repeat center center;
+        background-size: 100%;
+    }
+}
