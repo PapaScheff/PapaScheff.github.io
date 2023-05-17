@@ -104,6 +104,14 @@
     }
     .hero {
         padding: 0;
+        .content {
+            p {
+                font-size: 30px;
+            }
+            .images {
+                gap: 50px;
+            }
+        }
     }
     .title {
         h1 {
@@ -136,6 +144,9 @@
     }
     .hero {
         .content {
+            &.collab {
+                margin: 0px 0px 125px 0px;
+            }
             margin: 80px 0px 125px 0px;
             .image {
                 display: none;
@@ -149,6 +160,16 @@
 }
 
 @media (max-width: 584px) {
+    .hero {
+        .content {
+            .images {
+                .cross {
+                    width: 27px;
+                    height: 33px;
+                }
+            }
+        }
+    }
     .who {
         .mobile {
             gap: 0;
