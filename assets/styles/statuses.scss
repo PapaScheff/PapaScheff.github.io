@@ -12,6 +12,7 @@
 .lab4u {
     color: $MainLavender;
     position: relative;
+    margin-left: 20px;
     &::before {
         content: '';
         position: absolute;
