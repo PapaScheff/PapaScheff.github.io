@@ -164,7 +164,11 @@
 @media (max-width: 584px) {
     .hero {
         .content {
+            gap: 70px;
             .images {
+                .company {
+                    height: 170px;
+                }
                 .cross {
                     width: 27px;
                     height: 33px;
